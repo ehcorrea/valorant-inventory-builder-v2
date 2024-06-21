@@ -1,0 +1,5 @@
+{
+  "app/**/*.{ts,tsx}": [
+    "npx --yes eslint --fix"
+  ]
+}
