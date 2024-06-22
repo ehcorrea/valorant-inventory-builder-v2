@@ -1,5 +1,6 @@
 {
-  "app/**/*.{ts,tsx}": [
-    "npx --yes eslint --fix"
+  "src/**/*.{ts,tsx}": [
+    "npx --yes eslint --fix",
+     "yarn test --findRelatedTests --bail --passWithNoTests --coverageThreshold '{}'"
   ]
 }
