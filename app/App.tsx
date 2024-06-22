@@ -2,6 +2,8 @@ import { useCallback } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import { ThemeProvider } from 'styled-components/native';
+import theme from './constants/theme';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -23,17 +25,19 @@ export default function App() {
   }
 
   return (
-    <View style={styles.container} onLayout={onLayoutRootView}>
-      <Text style={{ fontSize: 30, fontFamily: 'Valorant-Font' }}>
-        Valorant-Font
-      </Text>
-      <Text style={{ fontSize: 30, fontFamily: 'ShareTech-Regular' }}>
-        ShareTech-Regular
-      </Text>
-      <Text style={{ fontSize: 30, fontFamily: 'ShareTech-Regular' }}>
-        ShareTech-Regular
-      </Text>
-    </View>
+    <ThemeProvider theme={theme}>
+      <View style={styles.container} onLayout={onLayoutRootView}>
+        <Text style={{ fontSize: 30, fontFamily: 'Valorant-Font' }}>
+          Valorant-Font
+        </Text>
+        <Text style={{ fontSize: 30, fontFamily: 'ShareTech-Regular' }}>
+          ShareTech-Regular
+        </Text>
+        <Text style={{ fontSize: 30, fontFamily: 'ShareTech-Regular' }}>
+          ShareTech-Regular
+        </Text>
+      </View>
+    </ThemeProvider>
   );
 }
 
