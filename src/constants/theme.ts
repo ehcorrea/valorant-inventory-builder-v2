@@ -11,7 +11,7 @@ export default {
     family: {
       title: 'Valorant-Font',
       subtitle: 'ShareTech-Regular',
-      body: 'BowlbyOneSC-Regular',
+      body: 'Dinnextw1g',
     },
     wight: {
       light: 300,

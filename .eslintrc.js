@@ -10,5 +10,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     'no-console': 'warn',
+    'react/display-name': 'off',
   },
 };
