@@ -1,5 +1,5 @@
-import { Initial } from '@/templates';
+import { InitialScreen } from '@/screens';
 
 export default function Index() {
-  return <Initial />;
+  return <InitialScreen />;
 }

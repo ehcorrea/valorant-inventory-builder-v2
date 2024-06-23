@@ -4,9 +4,9 @@ import { router } from 'expo-router';
 import { ButtonValorant, Text } from '@/components';
 import image from '@/assets/images/background-home.png';
 
-import * as S from './Initial.styled';
+import * as S from './InitialScreen.styled';
 
-export function Initial() {
+export function InitialScreen() {
   return (
     <S.Wrapper>
       <ImageBackground style={{ flex: 1 }} source={image}>
