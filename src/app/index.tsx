@@ -1,5 +1,5 @@
-import { Home } from '@/templates';
+import { Initial } from '@/templates';
 
 export default function Index() {
-  return <Home />;
+  return <Initial />;
 }

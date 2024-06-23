@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Home/> should render Home components 1`] = `
+exports[`<Initial/> should render Initial components 1`] = `
 <View
   style={
     {
@@ -134,7 +134,7 @@ exports[`<Home/> should render Home components 1`] = `
             }
             accessible={true}
             collapsable={false}
-            focusable={false}
+            focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}

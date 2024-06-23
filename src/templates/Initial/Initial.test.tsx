@@ -1,10 +1,10 @@
 import { render } from '@/test/utils';
 
-import { Home } from './Home';
+import { Initial } from './Initial';
 
-describe('<Home/>', () => {
-  test('should render Home components', () => {
-    const container = render(<Home />);
+describe('<Initial/>', () => {
+  test('should render Initial components', () => {
+    const container = render(<Initial />);
 
     expect(container.getByText('Valorant')).toBeTruthy();
     expect(container.getByText('Inventory\nBuilder')).toBeTruthy();
