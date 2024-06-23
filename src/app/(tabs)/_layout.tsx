@@ -9,6 +9,14 @@ export default function TabLayout() {
         name="index"
         options={{
           tabBarIcon: () => (
+            <FontAwesome size={28} name="home" color={theme.colors.red} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="create-inventory"
+        options={{
+          tabBarIcon: () => (
             <FontAwesome size={28} name="plus" color={theme.colors.red} />
           ),
         }}
