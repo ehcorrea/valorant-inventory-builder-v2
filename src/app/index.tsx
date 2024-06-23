@@ -1,7 +1,5 @@
-import App from './App';
+import { Home } from '@/templates';
 
 export default function Index() {
-  return (
-    <App/>
-  );
+  return <Home />;
 }

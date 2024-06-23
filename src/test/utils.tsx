@@ -10,6 +10,8 @@ import {
 
 import { Provider } from '../components/Provider/Provider';
 
+export * from '@testing-library/react-native';
+
 export const render = (
   component: React.ReactElement,
   options?: RenderOptions

@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> should render Home components 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "red",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "position": "relative",
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        [
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "backgroundColor": "#00000091",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "position": "relative",
+        }
+      }
+    >
+      <RCTSafeAreaView
+        style={
+          {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexGrow": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            adjustsFontSizeToFit={true}
+            color="white"
+            numberOfLines={1}
+            size="xxhuge"
+            style={
+              {
+                "color": "#FFFBF5",
+                "fontFamily": "Valorant-Font",
+                "fontSize": 118,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Valorant
+          </Text>
+          <Text
+            color="red"
+            size="large"
+            style={
+              {
+                "color": "#FD4556",
+                "fontFamily": "ShareTech-Regular",
+                "fontSize": 39,
+              }
+            }
+          >
+            Inventory Builder
+          </Text>
+        </View>
+        <RCTSafeAreaView
+          style={
+            {
+              "alignSelf": "center",
+              "width": "80%",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "height": 60,
+                  "paddingBottom": 5,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                  "paddingTop": 5,
+                  "position": "relative",
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderColor": "#FFFBF5",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "paddingBottom": 2,
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingTop": 2,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#FD4556",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    adjustsFontSizeToFit={true}
+                    color="white"
+                    style={
+                      {
+                        "color": "#FFFBF5",
+                        "fontFamily": "Dinnextw1g",
+                        "fontSize": 31,
+                      }
+                    }
+                  >
+                    GET STARTED
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTSafeAreaView>
+      </RCTSafeAreaView>
+    </View>
+  </View>
+</View>
+`;

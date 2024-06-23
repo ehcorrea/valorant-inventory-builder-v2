@@ -1,4 +1,5 @@
 import { Text } from 'react-native';
+
 import { render } from '@/test/utils';
 
 import { Provider } from './Provider';
