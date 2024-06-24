@@ -5,13 +5,14 @@ import theme from '../../constants/theme';
 
 type ProviderProps = {
   children: React.ReactElement;
+  customQueryClient?: QueryClient;
 };
 
 const queryClient = new QueryClient();
 
-export function Provider({ children }: ProviderProps) {
+export function Provider({ children, customQueryClient }: ProviderProps) {
   return (
-    <QueryClientProvider client={queryClient}>
+    <QueryClientProvider client={customQueryClient || queryClient}>
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </QueryClientProvider>
   );
