@@ -1,24 +1,24 @@
-import { Weapon } from '@/types/weapon';
+import { WeaponCategory, Chroma, Weapons } from '@/types/weapon';
 
 import { create } from '../zustand';
+import weapons from '@/constants/weapons';
 
-type State = { itens: Weapon[]; isLoading: boolean };
+type State = { weapons: Weapons };
 
 type Actions = {
-  requestWeapons: () => void;
-  setWeapons: (itens: Weapon[]) => void;
+  setWeaponSkin: (chroma: Chroma, WeaponCategory: WeaponCategory) => void;
 };
 export const initialState: State = {
-  itens: [],
-  isLoading: false,
+  weapons,
 };
 
-export const weaponsStore = create<State & Actions>((set) => ({
+export const weaponsStore = create<State & Actions>((set, get) => ({
   ...initialState,
-  requestWeapons() {
-    set({ isLoading: true });
-  },
-  setWeapons(weapons) {
-    set({ itens: weapons, isLoading: false });
+  setWeaponSkin(chroma, WeaponCategory) {
+    const weapons = get().weapons;
+    const weaponCategory = weapons[WeaponCategory];
+    set({
+      weapons: { ...weapons, [WeaponCategory]: { ...weaponCategory, chroma } },
+    });
   },
 }));
