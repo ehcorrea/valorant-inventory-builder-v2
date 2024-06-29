@@ -1496,9 +1496,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/cli@npm:0.18.20":
-  version: 0.18.20
-  resolution: "@expo/cli@npm:0.18.20"
+"@expo/cli@npm:0.18.21":
+  version: 0.18.21
+  resolution: "@expo/cli@npm:0.18.21"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/code-signing-certificates": 0.0.5
@@ -1579,7 +1579,7 @@ __metadata:
     ws: ^8.12.1
   bin:
     expo-internal: build/bin/cli
-  checksum: dc36fa4ca19cf7f4475136caff4f4de24338b7d81bd40600795001ba451974069f4bb2ca54a6f8ebf8bbf426ba63ddcc8fca89dcfa0e5fa981498b38fdf1324c
+  checksum: 16a2f37ad661b2f8ed7a28ae46a2722080c18e2cb3535f75b7dd75cb99c85394b394bbd4685c6152a14bfd18f99ef675bc408241dcb86a32e57242694da7b64f
   languageName: node
   linkType: hard
 
@@ -6406,12 +6406,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-modules-core@npm:1.12.17":
-  version: 1.12.17
-  resolution: "expo-modules-core@npm:1.12.17"
+"expo-modules-core@npm:1.12.18":
+  version: 1.12.18
+  resolution: "expo-modules-core@npm:1.12.18"
   dependencies:
     invariant: ^2.2.4
-  checksum: 0006963d5f446a377509bfcaeb63816815552058d79e52fedfa289f5af440be3f40a616a1be0dd0b3c778adb1d34fec1856beaa6de216e9e1fc6e6a123a6a8c2
+  checksum: b6bfd75379db146bbbe86be271fb6b56f9efda23fdd268516e97326d43ba5608670c8713af6960f2ff5e6663e6a1f0505849572d99fec08827aafa6e3d69bba3
   languageName: node
   linkType: hard
 
@@ -6530,12 +6530,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:^51.0.16":
-  version: 51.0.16
-  resolution: "expo@npm:51.0.16"
+"expo@npm:^51.0.17":
+  version: 51.0.17
+  resolution: "expo@npm:51.0.17"
   dependencies:
     "@babel/runtime": ^7.20.0
-    "@expo/cli": 0.18.20
+    "@expo/cli": 0.18.21
     "@expo/config": 9.0.1
     "@expo/config-plugins": 8.0.6
     "@expo/metro-config": 0.18.8
@@ -6546,12 +6546,12 @@ __metadata:
     expo-font: ~12.0.7
     expo-keep-awake: ~13.0.2
     expo-modules-autolinking: 1.11.1
-    expo-modules-core: 1.12.17
+    expo-modules-core: 1.12.18
     fbemitter: ^3.0.0
     whatwg-url-without-unicode: 8.0.0-3
   bin:
     expo: bin/cli
-  checksum: 78d97d0e65f42d6262b42a03fc53a038ddfd9ed1d9a1b36cdd32be8ca19c40d0da69fc129435f0b78b4ee47314bf3d33c4d2b841086d00b6ed2e37530d66e7c4
+  checksum: 36006778b11a99c76a54617ddbae039c21f10dd7ddc0bff3e44fa0558fdea4832464d5c0b346213ac442c6afb9e99690157276d5863581cca3521781e9aed7aa
   languageName: node
   linkType: hard
 
@@ -13655,7 +13655,7 @@ __metadata:
     eslint-config-expo: ^7.0.0
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.1.3
-    expo: ^51.0.16
+    expo: ^51.0.17
     expo-constants: ~16.0.2
     expo-font: ~12.0.7
     expo-image: ~1.12.12
