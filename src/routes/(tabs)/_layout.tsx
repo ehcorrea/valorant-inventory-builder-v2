@@ -1,6 +1,7 @@
-import theme from '@/constants/theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
+
+import { theme } from '@/constants';
 
 export default function TabLayout() {
   return (
