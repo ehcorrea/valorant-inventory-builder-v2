@@ -1,19 +1,19 @@
 import { WeaponCategory, Chroma, Weapons } from '@/types/weapon';
+import { weapons } from '@/constants';
 
 import { create } from '../zustand';
-import weapons from '@/constants/weapons';
 
 type State = { weapons: Weapons };
 
 type Actions = {
   setWeaponSkin: (chroma: Chroma, WeaponCategory: WeaponCategory) => void;
 };
-export const initialState: State = {
+export const initialStateWeapons: State = {
   weapons,
 };
 
 export const weaponsStore = create<State & Actions>((set, get) => ({
-  ...initialState,
+  ...initialStateWeapons,
   setWeaponSkin(chroma, WeaponCategory) {
     const weapons = get().weapons;
     const weaponCategory = weapons[WeaponCategory];

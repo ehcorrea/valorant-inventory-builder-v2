@@ -18,3 +18,7 @@ Text.Title = ({ children, ...props }: TextProps) => {
 Text.Subtitle = ({ children, ...props }: TextProps) => {
   return <S.Subtitle {...props}>{children}</S.Subtitle>;
 };
+
+Text.Category = ({ children, ...props }: TextProps) => {
+  return <S.Category {...props}>{children}</S.Category>;
+};

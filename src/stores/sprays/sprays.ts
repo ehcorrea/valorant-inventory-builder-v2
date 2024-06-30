@@ -1,5 +1,5 @@
 import { Spray, Sprays, SpraysSlots } from '@/types/spray';
-import { sprays } from '@/constants/sprays';
+import { sprays } from '@/constants';
 
 import { create } from '../zustand';
 
@@ -9,12 +9,12 @@ type Actions = {
   setSpray: (spray: Spray, slot: SpraysSlots) => void;
 };
 
-export const initialState: State = {
+export const initialStateSprays: State = {
   sprays,
 };
 
 export const spraysStore = create<State & Actions>((set, get) => ({
-  ...initialState,
+  ...initialStateSprays,
   setSpray(spray, slot) {
     const sprays = get().sprays;
     set({

@@ -1,4 +1,4 @@
-import theme from '@/constants/theme';
+import { theme } from '@/constants';
 
 export type BorderRadius = keyof typeof theme.border.radius;
 export type Color = keyof typeof theme.colors;

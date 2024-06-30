@@ -1,4 +1,4 @@
-export default {
+export const theme = {
   border: {
     radius: {
       xsmall: 4,
@@ -12,6 +12,7 @@ export default {
       title: 'Valorant-Font',
       subtitle: 'ShareTech-Regular',
       body: 'Dinnextw1g',
+      category: 'Tungsten-SemiBold',
     },
     wight: {
       light: 300,

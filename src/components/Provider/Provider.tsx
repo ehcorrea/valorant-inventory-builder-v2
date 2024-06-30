@@ -1,7 +1,6 @@
 import { ThemeProvider } from 'styled-components/native';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-
-import theme from '../../constants/theme';
+import { theme } from '@/constants';
 
 type ProviderProps = {
   children: React.ReactElement;

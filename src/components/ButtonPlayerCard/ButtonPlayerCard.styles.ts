@@ -8,7 +8,7 @@ export const Button = styled(TouchableOpacity)`
 `;
 
 export const ImageCard = styled(Image).attrs<ImageProps>({
-  contentFit: 'cover',
+  contentFit: 'contain',
 })`
   height: 100%;
   width: 100%;

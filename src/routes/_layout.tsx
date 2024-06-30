@@ -11,6 +11,7 @@ SplashScreen.preventAutoHideAsync();
 export default function LayoutStack() {
   const [fontsLoaded, fontError] = useFonts({
     'ShareTech-Regular': require('@/assets/fonts/ShareTech-Regular.ttf'),
+    'Tungsten-SemiBold': require('@/assets/fonts/Tungsten-SemiBold.ttf'),
     'Valorant-Font': require('@/assets/fonts/Valorant-Font.ttf'),
     Dinnextw1g: require('@/assets/fonts/Dinnextw1g.otf'),
   });

@@ -30,3 +30,9 @@ export const Subtitle = styled(Text)`
     font-family: ${theme.font.family.subtitle};
   `}
 `;
+
+export const Category = styled(Text)`
+  ${({ theme }) => css`
+    font-family: ${theme.font.family.category};
+  `}
+`;

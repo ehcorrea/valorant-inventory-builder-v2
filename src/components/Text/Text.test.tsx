@@ -1,7 +1,7 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 
 import { render } from '@/test/utils';
-import theme from '@/constants/theme';
+import { theme } from '@/constants';
 
 import { Text } from './Text';
 
@@ -32,6 +32,15 @@ describe('<Text/>', () => {
 
     expect(text).toHaveStyle({
       fontFamily: theme.font.family.subtitle,
+    });
+  });
+
+  test('should render Text.Category with success', () => {
+    const container = render(<Text.Category>Render Text</Text.Category>);
+    const text = container.getByText('Render Text');
+
+    expect(text).toHaveStyle({
+      fontFamily: theme.font.family.category,
     });
   });
 });
