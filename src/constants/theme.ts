@@ -12,6 +12,7 @@ export default {
       title: 'Valorant-Font',
       subtitle: 'ShareTech-Regular',
       body: 'Dinnextw1g',
+      category: 'Tungsten-SemiBold',
     },
     wight: {
       light: 300,
