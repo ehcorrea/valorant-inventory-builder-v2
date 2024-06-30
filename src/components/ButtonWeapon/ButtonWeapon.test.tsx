@@ -1,12 +1,12 @@
 import { fireEvent, render } from '@/test/utils';
 
-import { WeaponButton } from './WeaponButton';
+import { ButtonWeapon } from './ButtonWeapon';
 
 const mockedOnPress = jest.fn();
 
 const setup = () => {
   return render(
-    <WeaponButton
+    <ButtonWeapon
       onPress={mockedOnPress}
       image="placeholder-image.png"
       testID="weapon-button"
