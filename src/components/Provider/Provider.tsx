@@ -1,11 +1,19 @@
 import { ThemeProvider } from 'styled-components/native';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 import theme from '../../constants/theme';
 
 type ProviderProps = {
   children: React.ReactElement;
+  customQueryClient?: QueryClient;
 };
 
-export function Provider({ children }: ProviderProps) {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+const queryClient = new QueryClient();
+
+export function Provider({ children, customQueryClient }: ProviderProps) {
+  return (
+    <QueryClientProvider client={customQueryClient || queryClient}>
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+    </QueryClientProvider>
+  );
 }

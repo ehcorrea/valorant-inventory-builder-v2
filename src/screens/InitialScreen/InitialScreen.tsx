@@ -1,11 +1,12 @@
 import { ImageBackground } from 'react-native';
+import { router } from 'expo-router';
 
 import { ButtonValorant, Text } from '@/components';
 import image from '@/assets/images/background-home.png';
 
-import * as S from './Home.styled';
+import * as S from './InitialScreen.styled';
 
-export function Home() {
+export function InitialScreen() {
   return (
     <S.Wrapper>
       <ImageBackground style={{ flex: 1 }} source={image}>
@@ -26,7 +27,7 @@ export function Home() {
             </S.ContainerTitle>
 
             <S.ContainerButton>
-              <ButtonValorant>
+              <ButtonValorant onPress={() => router.replace('(tabs)')}>
                 <Text color="white" adjustsFontSizeToFit>
                   GET STARTED
                 </Text>
