@@ -1,5 +1,6 @@
 import { PlayerCardsResponse } from '@/types/playerCard';
 import { Skin } from '@/types/weapon';
+import { SpraysResponse } from '@/types/spray';
 
 import { client } from './client';
 
@@ -19,6 +20,12 @@ export async function getSkins({ uuid }: SkinsRequest) {
 
 export async function getPlayerCards() {
   const { data } = await client.get<PlayerCardsResponse>(`/cards`);
+
+  return data;
+}
+
+export async function getSprays() {
+  const { data } = await client.get<SpraysResponse>(`/sprays`);
 
   return data;
 }
