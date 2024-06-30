@@ -1,10 +1,7 @@
+import { playerCard, sprays, weapons } from '@/constants';
 import { useInventory } from './useInventory';
 
 import { renderHook } from '@/test/utils';
-
-import { playerCard } from '@/constants/playerCard';
-import { sprays } from '@/constants/sprays';
-import weapons from '@/constants/weapons';
 
 const setup = () => {
   return renderHook(() => useInventory());

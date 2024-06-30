@@ -1,7 +1,7 @@
 import { WeaponCategory, Chroma, Weapons } from '@/types/weapon';
+import { weapons } from '@/constants';
 
 import { create } from '../zustand';
-import weapons from '@/constants/weapons';
 
 type State = { weapons: Weapons };
 

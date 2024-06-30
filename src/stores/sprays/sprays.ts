@@ -1,5 +1,5 @@
 import { Spray, Sprays, SpraysSlots } from '@/types/spray';
-import { sprays } from '@/constants/sprays';
+import { sprays } from '@/constants';
 
 import { create } from '../zustand';
 

@@ -1,4 +1,4 @@
-import { playerCard } from '@/constants/playerCard';
+import { playerCard } from '@/constants';
 import { PlayerCard } from '@/types/playerCard';
 
 import { create } from '../zustand';
