@@ -7,7 +7,7 @@ export const Button = styled(TouchableOpacity)`
     align-items: center;
     background-color: #ffffff14;
     border-radius: ${theme.border.radius.medium}px;
-    border: solid 1px ${theme.colors.red};
+    border: solid 2px ${theme.colors.red};
     height: 80px;
     justify-content: center;
     padding: 5px;

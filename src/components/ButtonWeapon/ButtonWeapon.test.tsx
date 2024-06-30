@@ -22,6 +22,7 @@ describe('given that the component is rendered', () => {
         .getByTestId('weapon-button')
         .findByProps({ source: 'placeholder-image.png' })
     ).toBeTruthy();
+    expect(container).toMatchSnapshot();
   });
 
   test('pressing calls a callback', () => {

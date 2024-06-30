@@ -31,12 +31,26 @@ exports[`given that the component is rendered render image passed by props 1`] =
   onStartShouldSetResponder={[Function]}
   style={
     {
-      "height": 330,
+      "alignItems": "center",
+      "backgroundColor": "#ffffff14",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderColor": "#FD4556",
+      "borderStyle": "solid",
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "borderWidth": 2,
+      "height": 80,
+      "justifyContent": "center",
       "opacity": 1,
-      "width": 130,
+      "paddingBottom": 5,
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "paddingTop": 5,
+      "width": 200,
     }
   }
-  testID="playerCard-button"
+  testID="weapon-button"
 >
   <Image
     contentFit="contain"
