@@ -1,7 +1,7 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 
 import { render } from '@/test/utils';
-import theme from '@/constants/theme';
+import { theme } from '@/constants';
 
 import { Text } from './Text';
 

@@ -1,4 +1,4 @@
-export default {
+export const theme = {
   border: {
     radius: {
       xsmall: 4,

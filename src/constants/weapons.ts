@@ -1,6 +1,6 @@
 import { Weapons, WeaponCategory } from '@/types/weapon';
 
-const weapons: Weapons = {
+export const weapons: Weapons = {
   [WeaponCategory.Melee]: [
     {
       uuid: '2f59173c-4bed-b6c3-2191-dea9b58be9c7',
@@ -130,5 +130,3 @@ const weapons: Weapons = {
     },
   ],
 } as const;
-
-export default weapons;
