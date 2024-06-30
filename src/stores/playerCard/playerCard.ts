@@ -9,12 +9,12 @@ type Actions = {
   setplayerCard: (playerCard: PlayerCard) => void;
 };
 
-export const initialState: State = {
+export const initialStatePlayerCard: State = {
   playerCard,
 };
 
 export const playerCardStore = create<State & Actions>((set, get) => ({
-  ...initialState,
+  ...initialStatePlayerCard,
   setplayerCard(playerCard) {
     set({
       playerCard,
