@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given that the component is rendered when open is false, dont show children 1`] = `null`;
+
+exports[`given that the component is rendered when open is true, show children  1`] = `
+[
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#00000080",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "opacity": 1,
+          "zIndex": 1,
+        },
+      ]
+    }
+  />,
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "white",
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "bottom": 0,
+          "height": "90%",
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        {
+          "transform": [
+            {
+              "translateY": 0,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          [
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            {
+              "height": undefined,
+              "width": undefined,
+            },
+            {
+              "borderTopLeftRadius": 19,
+              "borderTopRightRadius": 19,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          {
+            "paddingHorizontal": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View
+          testID="child-view"
+        />
+      </View>
+    </View>
+  </View>,
+]
+`;
