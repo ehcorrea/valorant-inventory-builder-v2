@@ -4,7 +4,8 @@ export const theme = {
       xsmall: 4,
       small: 8,
       medium: 10,
-      large: 30,
+      large: 20,
+      xlarge: 30,
     },
   },
   font: {
