@@ -5,9 +5,9 @@ import { theme } from '@/constants';
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs screenOptions={{ headerShown: false }} initialRouteName="home">
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           tabBarIcon: () => (
             <FontAwesome size={28} name="home" color={theme.colors.red} />
