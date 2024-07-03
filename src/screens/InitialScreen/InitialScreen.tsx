@@ -27,7 +27,7 @@ export function InitialScreen() {
             </S.ContainerTitle>
 
             <S.ContainerButton>
-              <ButtonValorant onPress={() => router.replace('(tabs)/home')}>
+              <ButtonValorant onPress={() => router.replace('(tabs)')}>
                 <Text color="white" adjustsFontSizeToFit>
                   GET STARTED
                 </Text>

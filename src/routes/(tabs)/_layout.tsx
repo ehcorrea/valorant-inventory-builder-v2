@@ -7,7 +7,7 @@ export default function TabLayout() {
   return (
     <Tabs screenOptions={{ headerShown: false }} initialRouteName="home">
       <Tabs.Screen
-        name="home"
+        name="index"
         options={{
           tabBarIcon: () => (
             <FontAwesome size={28} name="home" color={theme.colors.red} />
