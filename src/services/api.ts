@@ -10,7 +10,7 @@ export type SkinsRequest = {
   uuid: string;
 };
 
-export async function getSkins({ uuid }: SkinsRequest) {
+export async function getWeaponSkins({ uuid }: SkinsRequest) {
   const { data } = await client.get<SkinsResponse>(
     `/weapon/skins?uuid=${uuid}`
   );
