@@ -41,6 +41,7 @@ export const theme = {
     darkenRed: '#BD3944',
   },
   spacings: {
+    xxxsmall: 5,
     xxsmall: 8,
     xsmall: 10,
     small: 14,
