@@ -4,14 +4,14 @@ import { SpraysResponse } from '@/types/spray';
 
 import { client } from './client';
 
-export type SkinsResponse = Skin[];
+export type WeaponSkinsResponse = Skin[];
 
-export type SkinsRequest = {
+export type WeaponSkinsRequest = {
   uuid: string;
 };
 
-export async function getSkins({ uuid }: SkinsRequest) {
-  const { data } = await client.get<SkinsResponse>(
+export async function getWeaponSkins({ uuid }: WeaponSkinsRequest) {
+  const { data } = await client.get<WeaponSkinsResponse>(
     `/weapon/skins?uuid=${uuid}`
   );
 

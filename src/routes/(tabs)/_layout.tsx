@@ -5,7 +5,7 @@ import { theme } from '@/constants';
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs screenOptions={{ headerShown: false }} initialRouteName="home">
       <Tabs.Screen
         name="index"
         options={{

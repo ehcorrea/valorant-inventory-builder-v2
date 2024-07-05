@@ -1,5 +1,3 @@
 import { HomeScreen } from '@/screens';
 
-export default function Index() {
-  return <HomeScreen />;
-}
+export default HomeScreen;

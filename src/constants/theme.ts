@@ -4,7 +4,8 @@ export const theme = {
       xsmall: 4,
       small: 8,
       medium: 10,
-      large: 30,
+      large: 20,
+      xlarge: 30,
     },
   },
   font: {
@@ -40,6 +41,7 @@ export const theme = {
     darkenRed: '#BD3944',
   },
   spacings: {
+    xxxsmall: 5,
     xxsmall: 8,
     xsmall: 10,
     small: 14,

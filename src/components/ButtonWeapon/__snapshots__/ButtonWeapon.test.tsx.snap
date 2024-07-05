@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`given that the component is rendered render image passed by props 1`] = `
+exports[`given that the <ButtonWeapon> is rendered and is 'weapon' variant render image and dont render label 1`] = `
 <View
   accessibilityState={
     {
@@ -32,6 +32,7 @@ exports[`given that the component is rendered render image passed by props 1`] =
   style={
     {
       "alignItems": "center",
+      "aspectRatio": 2,
       "backgroundColor": "#ffffff14",
       "borderBottomLeftRadius": 10,
       "borderBottomRightRadius": 10,
@@ -40,27 +41,144 @@ exports[`given that the component is rendered render image passed by props 1`] =
       "borderTopLeftRadius": 10,
       "borderTopRightRadius": 10,
       "borderWidth": 2,
-      "height": 80,
       "justifyContent": "center",
+      "marginBottom": 5,
+      "marginLeft": 5,
+      "marginRight": 5,
+      "marginTop": 5,
+      "maxHeight": 200,
       "opacity": 1,
-      "paddingBottom": 5,
-      "paddingLeft": 5,
-      "paddingRight": 5,
-      "paddingTop": 5,
-      "width": 200,
+      "overflow": "hidden",
+      "width": "100%",
     }
   }
   testID="weapon-button"
 >
-  <Image
-    contentFit="contain"
-    source="placeholder-image.png"
+  <View
     style={
       {
+        "display": "flex",
         "height": "100%",
+        "justifyContent": "center",
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
         "width": "100%",
       }
     }
-  />
+    variant="weapon"
+  >
+    <Image
+      accessibilityLabel="Weapon Display Name button"
+      contentFit="contain"
+      source="placeholder-image.png"
+      style={
+        {
+          "height": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`given that the <ButtonWeapon> is rendered and is 'weapon-skin' variant  render label 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 2,
+      "backgroundColor": "#ffffff14",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "maxHeight": 200,
+      "opacity": 1,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+  testID="weapon-button"
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FD4556",
+        "height": "20%",
+        "paddingHorizontal": 14,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      adjustsFontSizeToFit={true}
+      color="white"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#FFFBF5",
+          "fontFamily": "Tungsten-SemiBold",
+          "fontSize": 31,
+        }
+      }
+    >
+      Weapon Display Name
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "display": "flex",
+        "height": "80%",
+        "justifyContent": "center",
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+        "width": "unset",
+      }
+    }
+    variant="weapon-skin"
+  >
+    <Image
+      accessibilityLabel="Weapon Display Name button"
+      contentFit="contain"
+      source="placeholder-image.png"
+      style={
+        {
+          "height": "100%",
+        }
+      }
+    />
+  </View>
 </View>
 `;
