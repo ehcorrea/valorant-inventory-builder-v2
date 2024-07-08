@@ -8,9 +8,7 @@ export function ButtonValorant({ children, ...props }: ButtonValorantTypes) {
   return (
     <TouchableOpacity {...props}>
       <S.Container>
-        <S.Outline>
-          <S.Wrapper>{children}</S.Wrapper>
-        </S.Outline>
+        <S.Wrapper>{children}</S.Wrapper>
       </S.Container>
     </TouchableOpacity>
   );
