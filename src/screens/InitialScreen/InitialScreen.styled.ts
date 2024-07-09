@@ -1,7 +1,5 @@
 import styled, { css } from 'styled-components/native';
 
-// import videoInitialScreen from '@/assets/videos/home-video.mp4';
-
 export const Wrapper = styled.View`
   flex: 1;
   position: relative;

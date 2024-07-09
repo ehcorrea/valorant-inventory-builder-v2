@@ -31,15 +31,16 @@ exports[`given that the component is rendered render image passed by props 1`] =
   onStartShouldSetResponder={[Function]}
   style={
     {
-      "height": 90,
+      "aspectRatio": 1,
+      "maxHeight": 250,
+      "maxWidth": 250,
       "opacity": 1,
-      "width": 90,
     }
   }
   testID="weapon-button"
 >
   <Image
-    contentFit="contain"
+    contentFit="cover"
     source="placeholder-image.png"
     style={
       {
