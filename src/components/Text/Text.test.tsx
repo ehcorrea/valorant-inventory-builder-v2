@@ -1,5 +1,3 @@
-import { RFValue } from 'react-native-responsive-fontsize';
-
 import { render } from '@/test/utils';
 import { theme } from '@/constants';
 
@@ -13,7 +11,7 @@ describe('<Text/>', () => {
     expect(text).toHaveStyle({
       fontFamily: theme.font.family.body,
       color: theme.colors.black,
-      fontSize: RFValue(theme.font.sizes.medium),
+      fontSize: theme.font.sizes.medium,
     });
   });
 

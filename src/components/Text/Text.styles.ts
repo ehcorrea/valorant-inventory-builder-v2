@@ -1,6 +1,5 @@
 import { Text as TextStyled } from 'react-native';
 import styled, { css } from 'styled-components/native';
-import { RFValue } from 'react-native-responsive-fontsize';
 
 import { Color, FontFamily, FontSize } from '@/types/theme';
 
@@ -14,7 +13,7 @@ export const Text = styled(TextStyled)<TextStyleProps>`
   ${({ theme, size = 'medium', color = 'black', fontFamily = 'body' }) => css`
     color: ${theme.colors[color!]};
     font-family: ${theme.font.family[fontFamily]};
-    font-size: ${RFValue(theme.font.sizes[size])}px;
+    font-size: ${theme.font.sizes[size]}px;
   `}
 `;
 

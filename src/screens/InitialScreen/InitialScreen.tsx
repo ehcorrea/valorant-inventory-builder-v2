@@ -25,10 +25,9 @@ export function InitialScreen() {
                 Inventory Builder
               </Text.Subtitle>
             </S.ContainerTitle>
-
             <S.ContainerButton>
               <ButtonValorant onPress={() => router.replace('(tabs)')}>
-                <Text color="white" adjustsFontSizeToFit>
+                <Text color="white" size="large" adjustsFontSizeToFit>
                   GET STARTED
                 </Text>
               </ButtonValorant>
