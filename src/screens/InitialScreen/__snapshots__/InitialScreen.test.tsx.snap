@@ -110,6 +110,7 @@ exports[`<Initial/> should render Initial components 1`] = `
           style={
             {
               "alignSelf": "center",
+              "maxWidth": 500,
               "width": "80%",
             }
           }
@@ -151,12 +152,14 @@ exports[`<Initial/> should render Initial components 1`] = `
             <View
               style={
                 {
-                  "height": 60,
+                  "borderColor": "#FFFBF5",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 102,
                   "paddingBottom": 5,
                   "paddingLeft": 5,
                   "paddingRight": 5,
                   "paddingTop": 5,
-                  "position": "relative",
                   "width": "100%",
                 }
               }
@@ -164,45 +167,29 @@ exports[`<Initial/> should render Initial components 1`] = `
               <View
                 style={
                   {
-                    "borderColor": "#FFFBF5",
-                    "borderStyle": "solid",
-                    "borderWidth": 1,
+                    "alignItems": "center",
+                    "backgroundColor": "#FD4556",
                     "flexBasis": 0,
                     "flexGrow": 1,
                     "flexShrink": 1,
-                    "paddingBottom": 2,
-                    "paddingLeft": 2,
-                    "paddingRight": 2,
-                    "paddingTop": 2,
+                    "justifyContent": "center",
                   }
                 }
               >
-                <View
+                <Text
+                  adjustsFontSizeToFit={true}
+                  color="white"
+                  size="large"
                   style={
                     {
-                      "alignItems": "center",
-                      "backgroundColor": "#FD4556",
-                      "flexBasis": 0,
-                      "flexGrow": 1,
-                      "flexShrink": 1,
-                      "justifyContent": "center",
+                      "color": "#FFFBF5",
+                      "fontFamily": "Dinnextw1g",
+                      "fontSize": 39,
                     }
                   }
                 >
-                  <Text
-                    adjustsFontSizeToFit={true}
-                    color="white"
-                    style={
-                      {
-                        "color": "#FFFBF5",
-                        "fontFamily": "Dinnextw1g",
-                        "fontSize": 31,
-                      }
-                    }
-                  >
-                    GET STARTED
-                  </Text>
-                </View>
+                  GET STARTED
+                </Text>
               </View>
             </View>
           </View>

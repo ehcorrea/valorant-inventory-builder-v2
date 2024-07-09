@@ -32,5 +32,6 @@ export const Container = styled.View`
 
 export const ContainerButton = styled.SafeAreaView`
   width: 80%;
+  max-width: 500px;
   align-self: center;
 `;
