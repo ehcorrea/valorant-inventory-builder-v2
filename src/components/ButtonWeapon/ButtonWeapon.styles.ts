@@ -29,7 +29,7 @@ export const Button = styled(TouchableOpacity)<ModifierProps>`
     aspect-ratio: 4 / 2;
     background-color: #ffffff14;
     border-radius: ${theme.border.radius.medium}px;
-    height: ${theme.spacings.rhvalue(100)}px;
+    max-height: ${theme.spacings.rhvalue(100)}px;
     overflow: hidden;
     width: 100%;
 
