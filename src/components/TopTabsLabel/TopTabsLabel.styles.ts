@@ -1,5 +1,6 @@
-import styled, { css, DefaultTheme } from 'styled-components/native';
 import { View } from 'react-native';
+import styled, { css, DefaultTheme } from 'styled-components/native';
+
 import { Text } from '../Text/Text';
 
 type LabelProps = {

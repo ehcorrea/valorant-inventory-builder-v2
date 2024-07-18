@@ -1,7 +1,7 @@
 import { render } from '@/test/utils';
+import { theme } from '@/constants';
 
 import { TopTabsLabel } from './TopTabsLabel';
-import { theme } from '@/constants';
 
 const setup = (focused?: boolean) =>
   render(<TopTabsLabel name="label name" focused={focused} />);
