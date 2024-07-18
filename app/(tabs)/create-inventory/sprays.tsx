@@ -1,10 +1,3 @@
-import { Text } from '@/components';
-import { View } from 'react-native';
+import { SpraysScreen } from '@/screens';
 
-export default function () {
-  return (
-    <View style={{ flex: 1, backgroundColor: 'transparent' }}>
-      <Text>sprays</Text>
-    </View>
-  );
-}
+export default SpraysScreen;
