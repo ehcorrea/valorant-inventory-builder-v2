@@ -25,6 +25,10 @@ export default function () {
     <Layout>
       <SafeAreaView style={{ flex: 1 }}>
         <MaterialTopTabs
+          sceneContainerStyle={{
+            backgroundColor: theme.colors.transparent,
+            marginTop: theme.spacings.vertical.large,
+          }}
           screenOptions={({ route }) => {
             return {
               tabBarIndicator: () => <></>,

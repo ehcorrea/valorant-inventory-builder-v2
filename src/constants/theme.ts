@@ -41,6 +41,7 @@ export const theme = {
     red: '#FD4556',
     darkRed: '#53212B',
     darkenRed: '#BD3944',
+    transparent: 'transparent',
   },
   spacings: {
     horizontal: {
