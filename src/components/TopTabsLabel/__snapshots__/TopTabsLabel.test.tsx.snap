@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopTabsLabel> render label name when focused is false 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "width": 125,
+    }
+  }
+>
+  <Text
+    focused={false}
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Tungsten-SemiBold",
+          "fontSize": 31,
+        },
+        {
+          "color": "#FFFBF5",
+          "fontSize": 31,
+        },
+      ]
+    }
+  >
+    label name
+  </Text>
+</View>
+`;
+
+exports[`<TopTabsLabel> render label name when focused is true 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "width": 125,
+    }
+  }
+>
+  <Text
+    focused={true}
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Tungsten-SemiBold",
+          "fontSize": 31,
+        },
+        {
+          "color": "#FD4556",
+          "fontSize": 39,
+        },
+      ]
+    }
+  >
+    label name
+  </Text>
+</View>
+`;

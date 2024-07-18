@@ -1,10 +1,13 @@
 import { TouchableOpacity } from 'react-native';
-import styled from 'styled-components/native';
 import { Image, ImageProps } from 'expo-image';
 
+import styled, { css } from 'styled-components/native';
+
 export const Button = styled(TouchableOpacity)`
-  height: 330px;
-  width: 130px;
+  ${({ theme }) => css`
+    height: ${theme.spacings.rhvalue(330)}px;
+    aspect-ratio: 7/16;
+  `}
 `;
 
 export const ImageCard = styled(Image).attrs<ImageProps>({

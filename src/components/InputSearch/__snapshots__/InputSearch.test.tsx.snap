@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`given that the component is rendered render image passed by props 1`] = `
+exports[`component <InputSearch/> update value when change text 1`] = `
 <View
   accessibilityState={
     {
@@ -31,31 +31,38 @@ exports[`given that the component is rendered render image passed by props 1`] =
   onStartShouldSetResponder={[Function]}
   style={
     {
-      "aspectRatio": 1,
-      "backgroundColor": "#cfcfcf11",
-      "borderBottomLeftRadius": 10,
-      "borderBottomRightRadius": 10,
-      "borderTopLeftRadius": 10,
-      "borderTopRightRadius": 10,
-      "flexBasis": 0,
-      "flexGrow": 1,
-      "flexShrink": 1,
-      "maxHeight": 250,
-      "maxWidth": 250,
+      "alignItems": "center",
+      "backgroundColor": "#ffffff29",
+      "borderBottomLeftRadius": 30,
+      "borderBottomRightRadius": 30,
+      "borderTopLeftRadius": 30,
+      "borderTopRightRadius": 30,
+      "flexDirection": "row",
+      "height": 51,
       "opacity": 1,
+      "paddingHorizontal": 16,
+      "width": "100%",
     }
   }
-  testID="weapon-button"
 >
-  <Image
-    contentFit="cover"
-    source="placeholder-image.png"
+  <Text />
+  <TextInput
+    onChangeText={[Function]}
+    onFocus={[MockFunction]}
+    placeholder="Search"
+    placeholderTextColor="#ffffff99"
     style={
       {
-        "height": "90%",
-        "width": "90%",
+        "color": "#FFFBF5",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "fontSize": 27,
+        "marginLeft": 10,
+        "paddingVertical": 13,
       }
     }
+    value="lorem ipsum"
   />
 </View>
 `;

@@ -6,3 +6,4 @@ export * from './Layout/Layout';
 export * from './Modal/Modal';
 export * from './Provider/Provider';
 export * from './Text/Text';
+export * from './TopTabsLabel/TopTabsLabel';

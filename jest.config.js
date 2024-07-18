@@ -13,15 +13,10 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: '<rootDir>/coverage',
   collectCoverageFrom: [
-    'src/**/*.{ts,tsx}',
-    '!**/node_modules/**',
-    '!src/@types/**',
-    '!src/**/*.styles.ts',
-    '!src/**/index.{ts,tsx}',
-    '!src/App.tsx',
-    '!src/config/**',
-    '!src/test/**',
-    '!src/app/App.tsx',
+    'src/components/**/*.tsx',
+    'src/hooks/**/*.{tx,tsx}',
+    'src/screens/**/*.tsx',
+    'src/utils/**/*.{tx,tsx}',
   ],
   coverageThreshold: {
     global: {

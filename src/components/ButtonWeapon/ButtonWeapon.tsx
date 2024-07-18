@@ -6,7 +6,7 @@ import * as S from './ButtonWeapon.styles';
 
 export type ButtonWeaponProps = {
   image: string;
-  variant: 'weapon' | 'weapon-skin';
+  variant?: 'weapon' | 'weapon-skin';
   displayName: string;
 } & TouchableOpacityProps;
 
