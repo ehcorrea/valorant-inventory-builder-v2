@@ -32,6 +32,14 @@ exports[`given that the component is rendered render image passed by props 1`] =
   style={
     {
       "aspectRatio": 1,
+      "backgroundColor": "#cfcfcf11",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
       "maxHeight": 250,
       "maxWidth": 250,
       "opacity": 1,
@@ -44,8 +52,8 @@ exports[`given that the component is rendered render image passed by props 1`] =
     source="placeholder-image.png"
     style={
       {
-        "height": "100%",
-        "width": "100%",
+        "height": "90%",
+        "width": "90%",
       }
     }
   />
