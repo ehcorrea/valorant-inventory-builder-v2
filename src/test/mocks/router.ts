@@ -1,7 +1,4 @@
-export const mockedReplace = jest.fn();
-
 export const mockedRouter = {
-  router: {
-    replace: mockedReplace,
-  },
+  replace: jest.fn(),
+  push: jest.fn(),
 };

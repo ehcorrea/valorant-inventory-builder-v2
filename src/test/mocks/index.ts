@@ -1,4 +1,4 @@
-import { mockedReplace } from './router';
+import { mockedRouter } from './router';
 
 export * from './api';
 export * from './router';
@@ -12,6 +12,6 @@ jest.mock('expo-image', () => {
 
 jest.mock('expo-router', () => {
   return {
-    router: { replace: mockedReplace },
+    router: mockedRouter,
   };
 });

@@ -1,4 +1,4 @@
-import { fireEvent, mockedReplace, render } from '@/test/utils';
+import { fireEvent, mockedRouter, render } from '@/test/utils';
 
 import { InitialScreen } from './InitialScreen';
 
@@ -10,6 +10,6 @@ describe('<Initial/>', () => {
     expect(container.getByText('Inventory\nBuilder')).toBeTruthy();
     expect(container).toMatchSnapshot();
     fireEvent.press(button);
-    expect(mockedReplace).toHaveBeenCalledWith('(tabs)');
+    expect(mockedRouter.replace).toHaveBeenCalledWith('(tabs)');
   });
 });
