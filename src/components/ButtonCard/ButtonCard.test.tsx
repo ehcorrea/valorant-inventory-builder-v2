@@ -26,5 +26,6 @@ describe('<ButtonCard/>', () => {
     fireEvent.press(image);
     fireEvent.press(children);
     expect(mockedOnPress).toHaveBeenCalledTimes(2);
+    expect(container).toMatchSnapshot();
   });
 });

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonCard/> render a presseble card with image and children 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 0.9,
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "marginBottom": 5,
+      "marginLeft": 5,
+      "marginRight": 5,
+      "marginTop": 5,
+      "maxHeight": 554,
+      "maxWidth": 466,
+      "opacity": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(217, 217, 217, 0.14)",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "maxHeight": "80%",
+        "width": "auto",
+      }
+    }
+  >
+    <Image
+      accessibilityLabel="placeholder label"
+      contentFit="contain"
+      source="placeholder-image.png"
+      style={
+        {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#0f1923",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "maxHeight": "30%",
+        "paddingBottom": 17,
+        "paddingLeft": 17,
+        "paddingRight": 17,
+        "paddingTop": 17,
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      testID="footer children"
+    />
+  </View>
+</View>
+`;
