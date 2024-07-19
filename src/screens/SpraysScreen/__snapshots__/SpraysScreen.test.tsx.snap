@@ -55,6 +55,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
           onStartShouldSetResponder={[Function]}
           style={
             {
+              "alignItems": "center",
               "aspectRatio": 1,
               "backgroundColor": "#cfcfcf11",
               "borderBottomLeftRadius": 10,
@@ -64,6 +65,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
+              "justifyContent": "center",
               "marginBottom": 8,
               "marginLeft": 8,
               "marginRight": 8,
@@ -116,6 +118,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
           onStartShouldSetResponder={[Function]}
           style={
             {
+              "alignItems": "center",
               "aspectRatio": 1,
               "backgroundColor": "#cfcfcf11",
               "borderBottomLeftRadius": 10,
@@ -125,6 +128,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
+              "justifyContent": "center",
               "marginBottom": 8,
               "marginLeft": 8,
               "marginRight": 8,
@@ -190,6 +194,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
           onStartShouldSetResponder={[Function]}
           style={
             {
+              "alignItems": "center",
               "aspectRatio": 1,
               "backgroundColor": "#cfcfcf11",
               "borderBottomLeftRadius": 10,
@@ -199,6 +204,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
+              "justifyContent": "center",
               "marginBottom": 8,
               "marginLeft": 8,
               "marginRight": 8,
@@ -251,6 +257,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
           onStartShouldSetResponder={[Function]}
           style={
             {
+              "alignItems": "center",
               "aspectRatio": 1,
               "backgroundColor": "#cfcfcf11",
               "borderBottomLeftRadius": 10,
@@ -260,6 +267,7 @@ exports[`<SpraysScreen/> when press a spray button given that it is in position 
               "flexBasis": 0,
               "flexGrow": 1,
               "flexShrink": 1,
+              "justifyContent": "center",
               "marginBottom": 8,
               "marginLeft": 8,
               "marginRight": 8,
