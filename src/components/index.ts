@@ -1,3 +1,4 @@
+export * from './ButtonCard/ButtonCard';
 export * from './ButtonPlayerCard/ButtonPlayerCard';
 export * from './ButtonSpray/ButtonSpray';
 export * from './ButtonValorant/ButtonValorant';
