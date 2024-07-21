@@ -6,7 +6,7 @@ import * as S from './InputSearch.styles';
 
 export type InputSearchProps = TextInputProps;
 
-export function InputSearch(props: InputSearchProps) {
+export function InputSearch({ onChangeText, ...props }: InputSearchProps) {
   const [text, setText] = useState('');
   const inputRef = useRef<TextInput>(null);
 
@@ -19,7 +19,10 @@ export function InputSearch(props: InputSearchProps) {
       <S.Icon name="search" />
       <S.Input
         ref={inputRef}
-        onChangeText={(value) => setText(value)}
+        onChangeText={(value) => {
+          setText(value);
+          onChangeText?.(value);
+        }}
         value={text}
         {...props}
       />

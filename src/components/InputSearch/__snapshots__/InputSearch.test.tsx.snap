@@ -62,7 +62,7 @@ exports[`component <InputSearch/> update value when change text 1`] = `
         "paddingVertical": 13,
       }
     }
-    value="lorem ipsum"
+    value="mocked input value"
   />
 </View>
 `;
