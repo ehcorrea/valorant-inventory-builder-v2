@@ -19,7 +19,6 @@ export const ContainerImage = styled(View)`
     background-color: rgba(217, 217, 217, 0.14);
     flex: 1;
     max-height: 80%;
-
     width: auto;
   `}
 `;
