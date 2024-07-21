@@ -18,7 +18,8 @@ export const ContainerImage = styled(View)`
   ${({ theme }) => css`
     background-color: rgba(217, 217, 217, 0.14);
     flex: 1;
-    max-height: 80%;
+    justify-content: center;
+    max-height: 100%;
     width: auto;
   `}
 `;
@@ -26,7 +27,7 @@ export const ContainerImage = styled(View)`
 export const CardImage = styled(Image).attrs({
   contentFit: 'contain',
 })<ImageProps>`
-  height: 100%;
+  height: 90%;
   width: 100%;
 `;
 
