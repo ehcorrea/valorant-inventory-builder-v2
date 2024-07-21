@@ -14,6 +14,7 @@ export default function LayoutStack() {
     'Tungsten-SemiBold': require('@/assets/fonts/Tungsten-SemiBold.ttf'),
     'Valorant-Font': require('@/assets/fonts/Valorant-Font.ttf'),
     Dinnextw1g: require('@/assets/fonts/Dinnextw1g.otf'),
+    NotoSans: require('@/assets/fonts/NotoSans.ttf'),
   });
 
   const onLayoutRootView = useCallback(async () => {
