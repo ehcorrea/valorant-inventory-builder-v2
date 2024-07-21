@@ -12,10 +12,11 @@ export const theme = {
   },
   font: {
     family: {
-      title: 'Valorant-Font',
-      subtitle: 'ShareTech-Regular',
       body: 'Dinnextw1g',
+      card: 'NotoSans',
       category: 'Tungsten-SemiBold',
+      subtitle: 'ShareTech-Regular',
+      title: 'Valorant-Font',
     },
     wight: {
       light: 300,

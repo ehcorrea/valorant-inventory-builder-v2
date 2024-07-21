@@ -4,12 +4,14 @@ import { Image, ImageProps } from 'expo-image';
 
 export const Button = styled(TouchableOpacity)`
   ${({ theme }) => css`
+    align-items: center;
     aspect-ratio: 1/1;
     background-color: #cfcfcf11;
     border-radius: ${theme.border.radius.medium}px;
+    flex: 1;
+    justify-content: center;
     max-height: 250px;
     max-width: 250px;
-    flex: 1;
   `}
 `;
 

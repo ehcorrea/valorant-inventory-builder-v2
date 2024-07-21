@@ -31,6 +31,7 @@ exports[`given that the component is rendered render image passed by props 1`] =
   onStartShouldSetResponder={[Function]}
   style={
     {
+      "alignItems": "center",
       "aspectRatio": 1,
       "backgroundColor": "#cfcfcf11",
       "borderBottomLeftRadius": 10,
@@ -40,6 +41,7 @@ exports[`given that the component is rendered render image passed by props 1`] =
       "flexBasis": 0,
       "flexGrow": 1,
       "flexShrink": 1,
+      "justifyContent": "center",
       "maxHeight": 250,
       "maxWidth": 250,
       "opacity": 1,

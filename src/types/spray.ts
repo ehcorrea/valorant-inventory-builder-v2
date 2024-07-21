@@ -10,10 +10,7 @@ export enum SpraysSlots {
 export type SpraysResponse = Spray[];
 
 export type Spray = {
-  animationGif: string | null;
-  animationPng: string | null;
   displayName: string;
   fullIcon: string;
-  fullTransparentIcon: string;
   uuid: string;
 };
