@@ -11,7 +11,9 @@ jest.mock('expo-image', () => {
 });
 
 jest.mock('expo-router', () => {
+  const actualExpoRouter = jest.requireActual('expo-router');
   return {
+    ...actualExpoRouter,
     router: mockedRouter,
   };
 });
